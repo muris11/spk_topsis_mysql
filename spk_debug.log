@@ -1,0 +1,42 @@
+get_kriteria: start
+get_connection: start
+get_connection: done
+get_kriteria: got connection
+get_kriteria: executing query
+get_kriteria: fetched rows
+get_kriteria: columns=['id', 'kode', 'nama', 'tipe', 'bobot_awal']
+get_kriteria: dataframe shape=(4, 5)
+get_connection: start
+get_connection: done
+get_matrix: start
+get_matrix: executing query
+get_matrix: fetched rows
+get_matrix: df shape=(20, 4)
+get_kriteria: start
+get_connection: start
+get_connection: done
+get_kriteria: got connection
+get_kriteria: executing query
+get_kriteria: fetched rows
+get_kriteria: columns=['id', 'kode', 'nama', 'tipe', 'bobot_awal']
+get_kriteria: dataframe shape=(4, 5)
+get_connection: start
+get_connection: done
+get_matrix: start
+get_matrix: executing query
+get_matrix: fetched rows
+get_matrix: df shape=(23, 4)
+get_kriteria: start
+get_connection: start
+get_connection: done
+get_kriteria: got connection
+get_kriteria: executing query
+get_kriteria: fetched rows
+get_kriteria: columns=['id', 'kode', 'nama', 'tipe', 'bobot_awal']
+get_kriteria: dataframe shape=(4, 5)
+get_connection: start
+get_connection: done
+get_matrix: start
+get_matrix: executing query
+get_matrix: fetched rows
+get_matrix: df shape=(23, 4)

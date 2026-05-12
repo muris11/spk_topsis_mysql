@@ -1,0 +1,70 @@
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <title>SPK TOPSIS MySQL</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+            background: #f7f9fc;
+        }
+        h1 {
+            color: #0b376d;
+        }
+        .box {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th {
+            background: #0b376d;
+            color: white;
+            padding: 8px;
+        }
+        td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>SPK TOPSIS Berbasis Database MySQL</h1>
+    <p>
+        Perhitungan Normalisasi, Solusi Ideal,
+        Jarak, Preferensi, dan Ranking
+    </p>
+    <div class="box">
+        <h2>1. Matriks Keputusan (X)</h2>
+        {{ X|safe }}
+    </div>
+    <div class="box">
+        <h2>2. Matriks Normalisasi (R)</h2>
+        {{ R|safe }}
+    </div>
+    <div class="box">
+        <h2>3. Matriks Normalisasi Terbobot (Y)</h2>
+        {{ Y|safe }}
+    </div>
+    <div class="box">
+        <h2>4. Solusi Ideal Positif dan Negatif</h2>
+        {{ ideal|safe }}
+    </div>
+    <div class="box">
+        <h2>5. Jarak dan Nilai Preferensi</h2>
+        {{ distance|safe }}
+    </div>
+    <div class="box">
+        <h2>6. Hasil Akhir dan Ranking</h2>
+        {{ result|safe }}
+    </div>
+
+</body>
+</html>
